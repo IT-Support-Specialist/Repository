@@ -2,6 +2,23 @@
 
 //This command can be used on CMD or PoweShell
 
+//This command gives us all the basic information about our computer such as:
+
+Host Name
+OS Name
+OS Version
+OS Manufacturer
+OS Configuration
+Os Build Type
+Registered Owner
+Product ID
+Original Install Date
+Bios Version
+Processor
+Input Locale
+Time Zone
+& many more
+
 
 ------> systeminfo [example]:
 Host Name:                 EXAMPLE-PC
