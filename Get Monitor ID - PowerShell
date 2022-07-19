@@ -1,0 +1,6 @@
+// How to get Monitor ID without having to check the hardware and make it even easier and efficent? 
+// Try this script
+
+// You have to run it on PowerShell
+
+ gwmi WmiMonitorID -Namespace root\wmi | ForEach-Object {($_.UserFriendlyName -ne 0 | foreach {[char]$_}) -join ""; ($_.SerialNumberID -ne 0 | foreach {[char]$_}) -join ""}
