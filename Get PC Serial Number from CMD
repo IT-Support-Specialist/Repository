@@ -1,0 +1,6 @@
+// How to get the serial number of my pc
+//This command is is the one that gets you the serial number
+
+
+-----> wmic bios get serialnumber [example]:
+-8CC14D0DPS
