@@ -1,0 +1,7 @@
+// This is the command to get the MAC ADDRESS from CMD
+
+----> getmac [examples]:
+Physical Address    Transport Name
+=================== ==========================================================
+2C-3F-45-02-1B-32   \Device\Tcpip_{7E49B486-120A-4BC2-2114-B345A4D5C5}
+10-13-17-BC-12-48   Media disconnected
