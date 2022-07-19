@@ -1,0 +1,8 @@
+//This command is used to see what partitions we have and their name and size
+
+->>> wmic partition get name,size,type
+
+Name                   Size          Type
+Disk #0, Partition #0  104857600     GPT: System
+Disk #0, Partition #1  255303090176  GPT: Basic Data
+Disk #0, Partition #2  633339904     GPT: Unknown
