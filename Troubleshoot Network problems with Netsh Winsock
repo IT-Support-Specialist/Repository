@@ -1,0 +1,17 @@
+//What Internet Connection Problems Can Winsock Reset Command Tackle?
+//Winsock reset Win 10 can resolve many networking problems for you. Normally it can repair these Internet connection problems.
+
+//Fix network problem after you remove malware, virus, etc.
+//Can’t access Internet or can’t open some webpages like meeting an error “This site can’t be reached” when trying to visit a website.
+//See some pop-up network connections errors on your Windows 10 computer.
+//WiFi connected but no Internet access error due to registry errors.
+//Resetting TCP/IP didn’t fix Internet connectivity issue.
+//Find some problems in DNS lookup.
+//Fail to renew IP address.
+//Fix some other DHCP errors.
+//Limited Internet connectivity in Windows 10.
+//Other devices can connect to the same Internet but your Windows 10 PC can’t.
+//Other network problems in Windows 10.
+
+
+Command -----> netsh winsock 
