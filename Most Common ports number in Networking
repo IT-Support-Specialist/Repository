@@ -1,6 +1,7 @@
 //Most common port number in Networking
 
 
+Port Number	Usage
 20	File Transfer Protocol (FTP) Data Transfer
 21	File Transfer Protocol (FTP) Command Control
 22	Secure Shell (SSH)
@@ -15,3 +16,16 @@
 161	Simple Network Management Protocol (SNMP)
 194	Internet Relay Chat (IRC)
 443	HTTP Secure (HTTPS) HTTP over TLS/SSL
+
+
+//Active Directory Replication Port Number List
+
+Port Number	Usage
+135	RPC ( Remote Procedure Call)
+389	LDAP
+636	LDAP SSL
+3268	Global Catalog LDAP
+3269	Global Catalog LDAP SSL
+53	Domain Name System (DNS) service
+88	Kerberos
+445	SMB
