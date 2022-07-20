@@ -1,3 +1,19 @@
 //The TRACERT diagnostic utility determines the route to a destination by sending Internet Control Message Protocol (ICMP) echo packets to the destination. In these packets, TRACERT uses varying IP Time-To-Live (TTL) values. Because each router along the path is required to decrement the packet's TTL by at least 1 before forwarding the packet, the TTL is effectively a hop counter. When the TTL on a packet reaches zero (0), the router sends an ICMP "Time Exceeded" message back to the source computer.
 
-Command ---- > tracert
+//How to Use TRACERT to Troubleshoot
+You can use TRACERT to find out where a packet stopped on the network. In the following example, the default gateway has found that there is no valid path for the host on 22.110.0.1. Probably, either the router has a configuration problem, or the 22.110.0.0 network does not exist, reflecting a bad IP address.
+
+The command:
+
+
+C:\>tracert 22.110.0.1
+The output from the command:
+
+
+Tracing route to 22.110.0.1 over a maximum of 30 hops
+-----------------------------------------------------
+1 157.54.48.1 reports: Destination net unreachable.
+
+Trace complete.
+
+Command ---- > tracert [attribute] [ip]
