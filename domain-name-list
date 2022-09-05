@@ -1,0 +1,65 @@
+C:\Users\Lab-tri-source>nslookup www.facebook.com
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    star-mini.c10r.facebook.com
+Addresses:  2a03:2880:f10d:183:face:b00c:0:25de
+          157.240.22.35
+Aliases:  www.facebook.com
+
+
+C:\Users\Lab-tri-source>nslookup www.cuevana3.com
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    www.cuevana3.com
+Addresses:  2606:4700:3032::ac43:96c3
+          2606:4700:3032::6815:21da
+          172.67.150.195
+          104.21.33.218
+
+
+C:\Users\Lab-tri-source>nslookup www.youtube.com
+Server:  dns.google
+Address:  8.8.8.8
+
+DNS request timed out.
+    timeout was 2 seconds.
+Name:    youtube-ui.l.google.com
+Addresses:  2607:f8b0:4007:815::200e
+          2607:f8b0:4007:80a::200e
+          2607:f8b0:4007:80e::200e
+          2607:f8b0:4007:803::200e
+Aliases:  www.youtube.com
+
+
+C:\Users\Lab-tri-source>nslookup www.cuevana3.today
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    www.cuevana3.today
+Addresses:  2606:4700:3030::6815:4938
+          2606:4700:3032::ac43:9e44
+          172.67.158.68
+          104.21.73.56
+
+
+C:\Users\Lab-tri-source>nslookup www.web.whatsapp.com
+Server:  dns.google
+Address:  8.8.8.8
+
+*** dns.google can't find www.web.whatsapp.com: Non-existent domain
+
+C:\Users\Lab-tri-source>nslookup www.whatsapp.com
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    mmx-ds.cdn.whatsapp.net
+Addresses:  2a03:2880:f20d:1c5:face:b00c:0:167
+          157.240.11.53
+Aliases:  www.whatsapp.com
+
