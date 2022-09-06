@@ -19,11 +19,16 @@
 # localhost name resolution is handled within DNS itself.
 #	127.0.0.1       localhost
 #	::1             localhost
-0.0.0.0           www.facebook.com
+127.0.0.1           www.facebook.com
 0.0.0.0 		www.youtube.com
 0.0.0.0           www.cuevana3.today
 127.0.0.1         open.spotify.com
-127.0.0.1  	 web.whatsapp.com
+127.0.0.1         www.web.whatsapp.com
+127.0.0.1         www.instagram.com
+127.0.0.1         www.tiktok.com
+0.0.0.0         www.pinterest.com
+127.0.0.1         es-la.facebook.com
 
+	
 	
 C:\Windows\System32\drivers\etc
