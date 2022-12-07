@@ -1,0 +1,7 @@
+/ How to get cpu serial number without having to check the hardware and make it even easier and efficent? 
+// Try this script
+//
+
+// You have to run it on PowerShell or CMD
+
+------>> wmic bios get serialnumber
